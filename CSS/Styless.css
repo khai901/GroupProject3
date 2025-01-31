@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #FAF3E0;
+}
+nav ul {
+        list-style-type: none;
+        margin-top: -10px;
+        padding: 30px;
+        display: flex;
+        gap: 20px;
+        row-gap: 90px;
+        text-align: center;
+        font-size: 30px;
+}
+nav ul li a {
+        text-decoration: underline;
+        text-decoration-color: black;
+        color: black;
+        padding: 10px 15px;
+        border-radius: 10px;
+}
+nav ul li a:hover {
+        background-color: turquoise;
+        color: white;
+}
+.header-container {
+  margin: 0;
+  padding: 0;
+  margin-top: -50px;
+  height: 140px;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  background-image: url('../Images/leaf.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+.header-container h1 {
+  color: lightgreen;
+  font-size: 60px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+.container{
+  display:  flex;
+  justify-content:  flex-start;
+  align-items:  flex-start;
+  gap:  10px;
+  padding:  0 40px;
+}
+.feedback-form{
+    width:  35%;
+    background-color: lightgreen  ;
+    padding:  20px;
+    border-radius:  8px;
+    box-shadow:   0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.feedback-form textarea{
+    border-style: none;
+    border-radius: 8px;
+    color:  darkgreen;
+    font-size: 14px;
+}
+.contact-text{
+    width:  50%;
+    color:  darkgreen;
+    padding:  10px;
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.contact-text  h2{
+    color:  darkgreen;
+    font-size:  24px;
+    margin-bottom: 10px;
+}
+.video-container{
+  margin-right: 400px;
+  display: flex;
+  gap: 20px;
+  border-radius: 8px;
+}
+.video-container video{
+  width: 100%;
+  max-width: 800px;
+  max-height: 170px;
+  border-radius: 8px;
+}
+.direction {
+  color: darkgreen;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+.Review {
+  color: darkgreen;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+.Review img{
+  width: 650px;
+  height: auto;
+}
+.footer
+{
+    text-align: center;
+    font-size: small;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: white ;
+    color: black;
+}
